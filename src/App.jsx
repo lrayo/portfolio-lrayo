@@ -1,5 +1,5 @@
 import React from 'react'
-import Headers from './components/header/Header'
+import Headers from './components/header/Headers'
 import Nav from './components/nav/Nav'
 import About from './components/about/About'
 import Experience from './components/experience/Experience'
