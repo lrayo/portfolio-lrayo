@@ -20,9 +20,9 @@
 
     --transition: all 400ms ease;
 
-    --container-width-lg: 75%
-    --container-width-md: 86%
-    --container-width-ms: 90%
+    --container-width-lg: 75%;
+    --container-width-md: 86%;
+    --container-width-ms: 90%;
 }
 
 html {
@@ -58,6 +58,7 @@ h1 {
 
 section {
     margin-top: 8rem;
+    height: 100vh;
 }
 
 section > h2, section > h5 {
@@ -130,7 +131,7 @@ section {
     
 @media screen and (max-width: 600px) {
     .container {
-        width: var(--container-width-sm);
+        width: var(--container-width-ms);
     }
 }
 
