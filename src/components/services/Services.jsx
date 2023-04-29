@@ -48,23 +48,19 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Wireframing</p>
+              <p>Design and development of websites and web applications</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Prototyping</p>
+              <p>User interface and user experience (UI/UX) design and development</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Usability Testing</p>
+              <p>Database management and backend development</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Interaction Design</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Visual Design</p>
+              <p>Maintenance and updates of existing websites.</p>
             </li>
           </ul>
         </article>
@@ -79,23 +75,23 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Wireframing</p>
+              <p>Identify your target audience.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Prototyping</p>
+              <p>Develop a content strategy.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Usability Testing</p>
+              <p>Create high-quality content using various formats.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Interaction Design</p>
+              <p>Optimize your content for search engines.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Visual Design</p>
+              <p>Promote your content using multiple channels.</p>
             </li>
           </ul>
         </article>

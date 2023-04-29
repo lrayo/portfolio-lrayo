@@ -1,7 +1,7 @@
 import React from 'react'
 import './portfolio.css'
-import Img1 from "../../assets/portfolio1.jpg";
-import I2 from "../../assets/portfolio2.jpg";
+import Img1 from "../../assets/dustBusters.png";
+import I2 from "../../assets/portCode.jpeg";
 import I3 from "../../assets/portfolio3.jpg";
 import I4 from "../../assets/portfolio4.jpg";
 import I5 from "../../assets/portfolio5.png";
@@ -12,45 +12,24 @@ import I6 from "../../assets/portfolio6.jpg";
 const data = [
   {
     id: 1,
-    title: 'Crypto currency dashborads and finalcial data visualization',
+    title: 'Household Cleaning Service Platform',
     img: Img1,
-    link: "https://github.com/lrayo",
-    demo: "https://dribbble.com/shots/16673715-Crypto-currency-dashborads-and-finalcial-data-visualization"
+    link: "https://github.com/No-Country/c9-32-t-javareact",
+    demo: "https://dust-busters.netlify.app/"
   },
   {
     id: 2,
-    title: 'Chart template for figma and sketch',
+    title: 'Online portfolio creation platform',
     img: I2,
-    link: "https://github.com/lrayo",
-    demo: "https://dribbble.com/shots/16580766-Orion-UI-Kit-Charts-templates-infographics-in-Figma"
+    link: "https://github.com/No-Country/S7-13-T-JAVAREACT",
+    demo: "https://www.youtube.com/watch?v=NnIRRvaod_g"
   },
   {
     id: 3,
-    title: 'Figma dashboard UI kit for daata desing web apps',
+    title: 'Spring boot course project with crud, login, security and thymeleaf templates',
     img: I3,
-    link: "https://github.com/lrayo",
+    link: "https://github.com/lrayo/ProyectoSpringCOnfenalco",
     demo: "https://dribbble.com/shots/17290917-Eclipse-Figma-dashboard-UI-kit-for-data-desing-web-apps"
-  },
-  {
-    id: 4,
-    title: 'Maintaining tasks and tracking progress',
-    img: I4,
-    link: "https://github.com/lrayo",
-    demo: "https://dribbble.com/shots/16955822-Maintaining-tasks-and-tracking-progress"
-  },
-  {
-    id: 5,
-    title: 'Charts templates & infographics in Figma',
-    img: I5,
-    link: "https://github.com/lrayo",
-    demo: "https://dribbble.com/shots/16541289-Orion-UI-Kit-Charts-templates-infographics-in-Figma"
-  },
-  {
-    id: 6,
-    title: 'Charts templates & infographics in Figma',
-    img: I6,
-    link: "https://github.com/lrayo",
-    demo: "https://dribbble.com/shots/15887665-Orion-UI-Kit-Charts-templates-infographics-in-Figma"
   }
 ]
 
@@ -65,7 +44,7 @@ const Portfolio = () => {
           data.map(({ id, title, img, link, demo }) => {
             return (
               <article key={ id } className='portfolio__item'>
-                <div className="portfolio__item-iamge">
+                <div className="portfolio__item-image">
                   <img src={ img } alt={ title } />
                 </div>
                 <h3>{ title }</h3>
