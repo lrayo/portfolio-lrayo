@@ -3,9 +3,7 @@ import './portfolio.css'
 import Img1 from "../../assets/dustBusters.png";
 import I2 from "../../assets/portCode.jpeg";
 import I3 from "../../assets/portfolio3.jpg";
-import I4 from "../../assets/portfolio4.jpg";
-import I5 from "../../assets/portfolio5.png";
-import I6 from "../../assets/portfolio6.jpg";
+
 
 //Do not use the image in production
 
