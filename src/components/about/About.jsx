@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ME from "../../assets/gordito.jpg";
+import ME from "../../assets/Me.png";
 import { FaAward } from "react-icons/fa";
 import { FiUser } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
@@ -40,10 +40,7 @@ const About = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Exercitationem accusamus dolorem ad nulla officiis, fugiat, voluptates
-            odio non veritatis laboriosam magnam dicta mollitia laudantium vitae
-            voluptatibus dolores iure fugit cum
+          "I am passionate about technology and software development. I continue to learn every day and have been working on personal projects to improve my skills, as well as collaborating with teams. My goal is to become an experienced fullstack developer and help create technological solutions that make life easier and more interesting for people. If you're interested in working with me or just want to connect, please don't hesitate to get in touch. Thank you for visiting my site!
           </p>
 
           <a href="#contact" className="btn btn-primary">
